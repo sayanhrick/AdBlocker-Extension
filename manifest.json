@@ -1,0 +1,24 @@
+
+{
+    "name": "HRICK'S BlockScript",
+    "version": "1.0.0",
+    "description": "Hricks's AdBlocker BlockScript",
+    "permissions": ["webRequest", "favicon","declarativeNetRequest"],
+    "background":{
+        "script"   :["background.js"]
+    },
+    "action":{
+        "default_icon": "banned.png"
+    },
+    "icons": {
+        "16": "banned.png",
+        "32": "banned.png",
+        "48": "banned.png",
+        "128": "banned.png"
+      },
+
+    
+
+    "manifest_version": 3
+
+}
